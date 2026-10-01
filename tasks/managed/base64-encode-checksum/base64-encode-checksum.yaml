@@ -108,7 +108,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: base64-encode-checksum
-      image: quay.io/konflux-ci/release-service-utils@sha256:4883a99413e3424a5f5eec8dbca63c2e40e58ab02d809f373d23fcd9c49b58a8
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:9b6761d0d3d61991be92e743a97f2587d19f99ad4ce3792babbde39fab0082b9
       computeResources:
         limits:
           memory: 128Mi

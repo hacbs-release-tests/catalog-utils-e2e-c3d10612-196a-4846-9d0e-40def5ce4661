@@ -129,7 +129,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: reduce-snapshot
-      image: quay.io/konflux-ci/release-service-utils@sha256:2ae61d5886887b230860934bfc7719453e44bc8882fab5ad84a483a720c5763d
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:9b6761d0d3d61991be92e743a97f2587d19f99ad4ce3792babbde39fab0082b9
       computeResources:
         limits:
           memory: 256Mi

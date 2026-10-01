@@ -137,7 +137,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: sign-image
-      image: quay.io/konflux-ci/release-service-utils@sha256:3cb03b14ac9d90ff27070036ce2b50712e65aa285daeb28852254a745bb25dfc
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:9b6761d0d3d61991be92e743a97f2587d19f99ad4ce3792babbde39fab0082b9
       computeResources:
         limits:
           memory: 2.5Gi
